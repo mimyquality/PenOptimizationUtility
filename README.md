@@ -1,9 +1,8 @@
-# Fukuro Udon
+# Pen Optimization Utility
 
 ## 概要
 
-[BOOTHで展開](https://mimyquality.booth.pm/item_lists/rdaT1p1m)しているU#アセット達のおまとめVPMパッケージです。  
-個別の内容は[こちら](https://github.com/mimyquality/FukuroUdon/wiki)を参照してください。
+
 
 ## 導入手順
 
@@ -21,24 +20,18 @@ vpm add repo https://vpm.mimylab.com/index.json
 
 
 VCCから任意のプロジェクトを選択し、「Manage Project」から「Manage Packages」に移動します。  
-読み込んだパッケージが一覧に出てくるので、 **Fukuro Udon** の右にある「＋」ボタンを押すか「Installed Version」から直接バージョンを選ぶことで、プロジェクトにインポートします。  
-![Manage Packages](Website/image/vcc_userpackages_add.png)
+読み込んだパッケージが一覧に出てくるので、 **Pen Optimization Utility** の右にある「＋」ボタンを押すか「Installed Version」から直接バージョンを選ぶことで、プロジェクトにインポートします。  
 
+リポジトリーを使わずに導入したい場合は、[Release](https://github.com/mimyquality/PenOptimizationUtility/releases)からunitypackageファイル( *com.mimylab.penoptimizationutility-\*.\*.\*.unitypackage* )をダウンロードして、プロジェクトにインポートしてください。  
 
-リポジトリーを使わずに導入したい場合は、[Release](https://github.com/mimyquality/FukuroUdon/releases)からunitypackageファイル( *com.mimylab.fukuroudon-\*.\*.\*.unitypackage* )をダウンロードして、プロジェクトにインポートしてください。  
-
-**注意：** VPM版Fukuro Udonパッケージをインポートする前に、[BOOTH版アセット](https://mimyquality.booth.pm/item_lists/rdaT1p1m)からインポートしたものは予め削除しておいてください。
 
 ## 利用方法
 
-パッケージは *Assets* フォルダーではなく *Packages* フォルダーに展開されるようになります。サンプルPrefabもここに含まれています。  
-また、特定のU#スクリプトを決め打ちで使いたい場合は、付けたいオブジェクトの「Add Component」ボタンからスクリプト名で検索してアタッチするのでもOKです。  
-![FukuroUdon location](Website/image/fukuroudon_location.png)
 
 ## 更新履歴
 
-[CHANGELOG](Packages/com.mimylab.fukuroudon/CHANGELOG.md)
+[CHANGELOG](Packages/com.mimylab.penoptimizationutility/CHANGELOG.md)
 
 ## ライセンス
 
-[LICENSE](Packages/com.mimylab.fukuroudon/LICENSE.md)
+[LICENSE](Packages/com.mimylab.penoptimizationutility/LICENSE.md)
