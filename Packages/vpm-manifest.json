@@ -11,6 +11,9 @@
     },
     "net.kaikoga.pen": {
       "version": "1.0.1"
+    },
+    "net.ureishi.qvpen": {
+      "version": "3.2.9"
     }
   },
   "locked": {
@@ -33,6 +36,12 @@
       "dependencies": {
         "com.vrchat.base": "^3.0.0",
         "com.vrchat.worlds": "^3.0.0"
+      }
+    },
+    "net.ureishi.qvpen": {
+      "version": "3.2.9",
+      "dependencies": {
+        "com.vrchat.udonsharp": "^1.1.8"
       }
     }
   }
