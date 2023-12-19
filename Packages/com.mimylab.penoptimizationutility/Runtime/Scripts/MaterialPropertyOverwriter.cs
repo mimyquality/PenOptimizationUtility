@@ -22,6 +22,7 @@ namespace MimyLab.PenOptimizationUtility
         //Matrix
     }
 
+    [AddComponentMenu("Pen Optimization Utility/MaterialProperty Overwriter")]
     [UdonBehaviourSyncMode(BehaviourSyncMode.None)]
     public class MaterialPropertyOverwriter : UdonSharpBehaviour
     {

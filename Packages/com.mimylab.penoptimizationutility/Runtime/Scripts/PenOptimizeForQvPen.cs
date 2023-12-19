@@ -11,6 +11,7 @@ namespace MimyLab.PenOptimizationUtility
     using VRC.SDKBase;
     using VRC.Udon;
 
+    [AddComponentMenu("Pen Optimization Utility/Pen Optimiza for QvPen")]
     [UdonBehaviourSyncMode(BehaviourSyncMode.None)]
     public class PenOptimizeForQvPen : MaterialSharingHelper
     {

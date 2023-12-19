@@ -11,6 +11,7 @@ namespace MimyLab.PenOptimizationUtility
     using VRC.SDKBase;
     using VRC.Udon;
 
+    [AddComponentMenu("Pen Optimization Utility/Material Sharing Helper")]
     [UdonBehaviourSyncMode(BehaviourSyncMode.None)]
     public class MaterialSharingHelper : UdonSharpBehaviour
     {
