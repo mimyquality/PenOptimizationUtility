@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 516
     height: 812
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 53
+  controlID: 132
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 188
+  controlID: 207
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,8 +145,8 @@ MonoBehaviour:
     y: 0
     width: 518
     height: 1299.3334
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -402,7 +402,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 50036
+  m_LastSelectedObjectID: -8584
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -522,7 +522,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Packages/net.ureishi.qvpen
+    - Packages/com.mimylab.penoptimizationutility/Runtime/Scripts
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -530,16 +530,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Packages/net.ureishi.qvpen
+  - Packages/com.mimylab.penoptimizationutility/Runtime/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\VRChatProject\PenOptimizationUtility
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 207}
-    m_SelectedIDs: 62700000
-    m_LastClickedID: 28770
-    m_ExpandedIDs: 00000000cc5b000032700000347000005e700000627000007a7000009a70000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 149.66663}
+    m_SelectedIDs: 72970000
+    m_LastClickedID: 38770
+    m_ExpandedIDs: 00000000cc5b0000289700002a9700005497000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -567,7 +567,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000cc5b00003270000034700000
+    m_ExpandedIDs: 00000000cc5b0000289700002a970000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -598,18 +598,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: package
-      m_OriginalName: package
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 35754
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 3}
     m_CreateAssetUtility:
@@ -669,7 +669,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Packages/com.mimylab.penoptimizationutility/Samples
+    - Packages/com.mimylab.penoptimizationutility/Runtime/Scripts
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -677,16 +677,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 71
   m_LastFolders:
-  - Packages/com.mimylab.penoptimizationutility/Samples
+  - Packages/com.mimylab.penoptimizationutility/Runtime/Scripts
   m_LastFoldersGridSize: 71
   m_LastProjectPath: D:\VRChatProject\PenOptimizationUtility
   m_LockTracker:
     m_IsLocked: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 229.66663}
-    m_SelectedIDs: 7a700000
-    m_LastClickedID: 28794
-    m_ExpandedIDs: 00000000cc5b000032700000347000005e7000007a70000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 213.66663}
+    m_SelectedIDs: 72970000
+    m_LastClickedID: 38770
+    m_ExpandedIDs: 00000000cc5b0000289700002a9700005497000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -714,7 +714,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000cc5b00003270000034700000
+    m_ExpandedIDs: 00000000cc5b0000289700002a970000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -856,9 +856,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 5a29ffff
-      m_LastClickedID: -54950
-      m_ExpandedIDs: 5e29ffffd6faffffe85e0000205f0000765f0000e65f0000fe5f0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 6cdeffff74deffff78deffff7cdeffff5ceeffffa4faffffa6faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1241,7 +1241,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: -1.4128042, y: -4.222145, z: 18.929436}
     speed: 2
-    m_Value: {x: 0.8125, y: 0.8, z: -0.04975}
+    m_Value: {x: -1.4128042, y: -4.222145, z: 18.929436}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1293,7 +1293,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 10.85093
     speed: 2
-    m_Value: 0.9782926
+    m_Value: 10.85093
   m_Ortho:
     m_Target: 0
     speed: 2
