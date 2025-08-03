@@ -13,6 +13,7 @@
 # Ignore the entire asset folder because it is for Packages
 /[Aa]ssets/
 /[Pp]roject[Ss]ettings/
+jp.lilxyzw.editortoolbox.*
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data

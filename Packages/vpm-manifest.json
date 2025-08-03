@@ -14,17 +14,20 @@
     },
     "com.vrchat.core.vpm-resolver": {
       "version": "0.1.28"
+    },
+    "jp.lilxyzw.editortoolbox": {
+      "version": "1.6.3"
     }
   },
   "locked": {
     "com.vrchat.base": {
-      "version": "3.6.0",
+      "version": "3.8.2",
       "dependencies": {}
     },
     "com.vrchat.worlds": {
-      "version": "3.6.0",
+      "version": "3.8.2",
       "dependencies": {
-        "com.vrchat.base": "3.6.0"
+        "com.vrchat.base": "3.8.2"
       }
     },
     "net.kaikoga.pen": {
@@ -35,13 +38,17 @@
       }
     },
     "net.ureishi.qvpen": {
-      "version": "3.2.13",
+      "version": "3.3.8",
       "dependencies": {
-        "com.vrchat.worlds": "^3.4.0"
+        "com.vrchat.worlds": "^3.5.0"
       }
     },
     "com.vrchat.core.vpm-resolver": {
-      "version": "0.1.28",
+      "version": "0.1.29",
+      "dependencies": {}
+    },
+    "jp.lilxyzw.editortoolbox": {
+      "version": "1.9.0",
       "dependencies": {}
     }
   }

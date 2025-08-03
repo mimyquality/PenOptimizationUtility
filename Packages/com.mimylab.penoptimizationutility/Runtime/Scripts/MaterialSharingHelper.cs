@@ -16,23 +16,33 @@ namespace MimyLab.PenOptimizationUtility
     public class MaterialSharingHelper : UdonSharpBehaviour
     {
         public Material sharedMaterial_PC;
+        public Material sharedMaterial_Mobile;
+        [HideInInspector]
         public Material sharedMaterial_Android;
         public int materialIndex = 0;
         public MaterialPropertyOverwriter[] sharingTargets;
 
-        protected bool _isAndroid = false;
+        protected bool _isPC = false;
         protected Material _sharedMaterial;
+
+        protected void OnValidate()
+        {
+            if (!sharedMaterial_Mobile && sharedMaterial_Android)
+            {
+                sharedMaterial_Mobile = sharedMaterial_Android;
+            }
+        }
 
         protected bool _initialized = false;
         protected void Initialize()
         {
             if (_initialized) { return; }
 
-#if UNITY_ANDROID
-            _isAndroid = true;
+#if UNITY_STANDALONE
+            _isPC = true;
 #endif
 
-            _sharedMaterial = (_isAndroid) ? sharedMaterial_Android : sharedMaterial_PC;
+            _sharedMaterial = _isPC ? sharedMaterial_PC : sharedMaterial_Android;
 
             _initialized = true;
         }

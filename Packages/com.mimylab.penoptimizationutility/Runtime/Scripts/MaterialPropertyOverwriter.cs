@@ -206,7 +206,7 @@ namespace MimyLab.PenOptimizationUtility
                     case MaterialPropertyType.Color: _mpb.SetColor(_propertyID[i], _propertyColor[i]); break;
                     case MaterialPropertyType.Vector: _mpb.SetVector(_propertyID[i], (Vector4)_propertyColor[i]); break;
                     case MaterialPropertyType.Texture: _mpb.SetTexture(_propertyID[i], _propertyTexture[i]); break;
-                        //case MaterialPropertyType.Matrix: _mpb.SetMatrix(propertyID[i], propertyValue[i]); break;
+                    //case MaterialPropertyType.Matrix: _mpb.SetMatrix(propertyID[i], propertyValue[i]); break;
                 }
             }
             _mesh.SetPropertyBlock(_mpb, materialIndex);
