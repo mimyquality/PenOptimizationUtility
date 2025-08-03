@@ -42,7 +42,7 @@ namespace MimyLab.PenOptimizationUtility
             _isPC = true;
 #endif
 
-            _sharedMaterial = _isPC ? sharedMaterial_PC : sharedMaterial_Android;
+            _sharedMaterial = _isPC ? sharedMaterial_PC : sharedMaterial_Mobile;
 
             _initialized = true;
         }
