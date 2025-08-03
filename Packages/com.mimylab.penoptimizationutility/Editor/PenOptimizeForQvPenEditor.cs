@@ -31,12 +31,12 @@ namespace MimyLab.PenOptimizationUtility
             {
                 behaviour.sharedMaterial_PC = AssetDatabase.LoadAssetAtPath<Material>(AssetDatabase.GUIDToAssetPath("f0474e21fecf57342afc8aa44596180c"));
             }
-            if (!behaviour.sharedMaterial_Android)
+            if (!behaviour.sharedMaterial_Mobile)
             {
-                behaviour.sharedMaterial_Android = AssetDatabase.LoadAssetAtPath<Material>(AssetDatabase.GUIDToAssetPath("652005b0959593a46b5ca60a3873731b"));
+                behaviour.sharedMaterial_Mobile = AssetDatabase.LoadAssetAtPath<Material>(AssetDatabase.GUIDToAssetPath("652005b0959593a46b5ca60a3873731b"));
             }
             behaviour.sharedMaterial_PC.enableInstancing = true;
-            behaviour.sharedMaterial_Android.enableInstancing = true;
+            behaviour.sharedMaterial_Mobile.enableInstancing = true;
 
             var qvPenManagers = behaviour.GetComponentsInChildren<QvPen_PenManager>(true);
             var penColor = Color.white;
